@@ -1,0 +1,68 @@
+
+h1,h2 {
+  font-family: 'Lora', serif;
+  background-color: #ffeead;
+  width: 450px;
+}
+#toptable,#toptable2 {
+  font-size: 20px;
+  background-color:#ffffff;
+  border-width: 3px;
+  border-color: #ffcc5c;
+}
+
+table {
+  width: 400px;
+}
+
+th {
+  background-color: #ffcc5c;
+}
+
+p,table,ul,ol,address {
+  font-family: 'Karla', sans-serif;
+}
+a {
+  text-decoration:none;
+}
+a:link {
+  color: #ff6f69;
+}
+
+a:visited {
+  color:#96ceb4;
+}
+
+a:hover {
+  background-color:#ffeead;
+}
+a:active{
+  color: #ffcc5c;
+}
+
+#jobtitle,#company {
+  font-size: 20px;
+
+}
+
+.info, {
+  font-size: 20px;
+}
+
+.objective,.green,ul {
+  width: 400px;
+}
+
+#email,a {
+  cursor: crosshair;
+}
+.green{
+  background-color: #ffcc5c;
+}
+
+.objective {
+  border-width: 2px;
+  border-color: #ffcc5c;
+  border-style: solid;
+  padding: 10px
+}

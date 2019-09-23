@@ -1,0 +1,23 @@
+h1 {
+  font-size: 40px;
+  color: pink;
+  font-weight: 19000
+}
+
+p {
+  font-size: 150%;
+  color: #9294f7;
+}
+
+html,body {
+  background-color: #ffffff
+}
+
+section#centered, #centered {
+width: 600px;
+margin: 0 auto;
+border: 100 px solid #1B68AB;
+}
+p {
+ background-image: linear-gradient(rgba(3, 200, 40, 0.5), rgba(255, 30, 239, 0.5));
+}
