@@ -4,12 +4,15 @@ h1,h2 {
   background-color: #ffeead;
   width: 450px;
 }
+
 #toptable,#toptable2 {
   font-size: 20px;
   background-color:#ffffff;
   border-width: 3px;
   border-color: #ffcc5c;
   align:left;
+  border-style: solid;
+
 }
 
 table {
