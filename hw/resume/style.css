@@ -9,6 +9,7 @@ h1,h2 {
   background-color:#ffffff;
   border-width: 3px;
   border-color: #ffcc5c;
+  align:left;
 }
 
 table {
