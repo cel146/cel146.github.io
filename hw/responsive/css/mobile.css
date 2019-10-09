@@ -1,3 +1,272 @@
-/*body {
-    margin: 2% 4%
+@media only screen and (max-width: 800px) {
+    html{
+        margin: auto;
+        font-family: 'Sunflower', sans-serif;
+        overflow: scroll;
+        background-color: #FF8EA2;
+
+    }
+
+    body{
+        width: 800px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border: 3px solid;
+        border-color: #ffb2b9;
+        font-family: 'Poppins', sans-serif;
+        background-color: #ffffff;
+    }
+
+    /* STYLE PROPERTIES*/
+
+    .the_knk,.about{
+        text-align: center;
+    }
+
+    h1,h3 {
+        background-color: #FFB2B9;
+        width: 200px;
+        margin-left: 33%;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+        font-size: 25px;
+    }
+    h3 {
+        margin-bottom: 10px;
+    }
+    h2{
+        padding-left: 70px;
+        margin: 0 auto;
+        text-decoration: underline;
+        text-decoration-color: #FF8EA2;
+    }
+    h4{
+        padding-left: 120px;
+        margin: 0 auto;
+    }
+
+    #group {
+        border: 3px solid;
+        border-color: #FFB2B9;
+    }
+
+    hr{
+        width: 400px;
+        height: 2px;
+        background-color: #FF8EA2;
+        margin-bottom: 20px;
+    }
+
+    #music,#unmute{
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: #FF8EA2;
+        font-size: 18px;
+
+    }
+
+    #knock,#gravity,#ln,#ss {
+        width: 130px;
+        height: 130px;
+        border: 3px solid;
+        border-color: #FFB2B9;
+        margin-left: 7px;
+    }
+
+    .nav1text{
+        margin-left: 10px;
+    }
+
+    .nav2{
+        margin-right: 30px;
+    }
+
+    .nav2text{
+        margin-left: 10px;
+    }
+
+    iframe{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 30px;
+        margin-left: 23px;
+        border: 3px solid;
+        border-color: #FFB2B9;
+    }
+
+    .performance{
+        margin-left: 0px;
+    }
+    footer{
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+    /* LINK STYLING */
+
+    a:link {
+        text-decoration: none;
+        color: #F5536A;
+    }
+
+    a:visited {
+        color: #F5536A;
+    }
+
+    a:hover {
+
+        color: #FFB2B9;
+    }
+
+    a:active {
+
+        color: #F5536A;
+    }
+
+
+    /* GRID PROPERTIES*/
+
+    .grid_container {
+        width: 600px;
+        display: grid;
+        grid-template-areas:
+            "the_knk the_knk the_knk"
+            "nav1 nav1 nav1"
+            "nav2 nav2 nav2"
+            ;
+    }
+
+    .the_knk {
+        grid-area: the_knk;
+
+
+    }
+
+    .nav1 {
+        grid-area: nav1;
+
+
+    }
+
+    .nav2 {
+        grid-area: nav2
+    }
+
+    .grid_container2 {
+        width: 600px;
+        display: grid;
+        grid-template-areas:
+            "more more more"
+            ;
+    }
+
+    .members{
+        grid-area: members;
+        margin-left: 0px;
+
+    }
+
+    .more{
+        grid-area: more;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: justify;
+    }
+
+    .jpgs {
+        float: left;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+    }
+    .jihun,.seoham,.dongwon,.inseong,.heejun,.youjin{
+        font-size: 15px;
+        height: 300px;
+    }
+    article{
+
+    }
+    #jihun,#seoham,#dongwon,#inseong,#heejun,#youjin{
+        margin-bottom: 100px;
+    }
+    .seoham{
+        margin-top: 25px;
+    }
+    .dongwon{
+        margin-top: 22px;
+        grid-area: dongwon;
+    }
+    .inseong{
+        margin-top: 35px;
+        grid-area: inseong;
+    }
+    .heejun{
+        margin-top: 30px;
+        grid-area: heejun;
+    }
+    .youjin{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        grid-area: youjin;
+    }
+
+    .albums{
+        width:600px;
+        display: grid;
+        grid-template-areas:
+            "knock gravity ln ss"
+    }
+
+    .knock{
+        grid-area: knock;
+    }
+
+    .gravity{
+        grid-area: gravity;
+    }
+
+    .lonelynight{
+        grid-area: ln;
+    }
+
+    .sscollection{
+        grid-area: ss;
+    }
+
+    .performance{
+        width:600px;
+        display: grid;
+        grid-template-areas:
+            "debut views"
+            "liked recent"
+    }
+
+    .debut{
+        grid-area: debut;
+    }
+
+    .views{
+        grid-area: views;
+    }
+    .liked{
+        grid-area: liked;
+    }
+    .recent{
+        grid-area: recent;
+    }
+
 }
+
+
+
+
+/* font families
+font-family: 'Sunflower', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/* color palette
+light pink: #FFB2B9
+med pink: #FF8EA2
+dark pink: #F5536A */
