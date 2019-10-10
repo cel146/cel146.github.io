@@ -185,31 +185,65 @@ a:active {
     font-size: 15px;
     height: 300px;
 }
-article{
 
+.members{
+    width: 600px;
+    display: grid;
+    grid-template-areas:
+        "jihun jihuntext"
+        "seoham seohamtext"
+        "dongwon dongwontext"
+        "inseong inseongtext"
+        "heejun heejuntext"
+        "youjin youjintext"
 }
-#jihun,#seoham,#dongwon,#inseong,#heejun,#youjin{
-    margin-bottom: 100px;
+
+.jihun{
+    grid-area: jihun;
 }
+
+.jihuntext{
+    grid-area: jihuntext;
+}
+
 .seoham{
-    margin-top: 25px;
+    grid-area: seoham;
 }
+
+.seohamtext{
+    grid-area: seohamtext;
+}
+
 .dongwon{
-    margin-top: 22px;
     grid-area: dongwon;
 }
+
+.dongwontext{
+    grid-area: dongwontext;
+}
+
 .inseong{
-    margin-top: 35px;
     grid-area: inseong;
 }
+
+.inseongtext{
+    grid-area: inseongtext;
+}
+
 .heejun{
-    margin-top: 30px;
     grid-area: heejun;
 }
+
+.heejuntext{
+    grid-area: heejuntext;
+}
+
 .youjin{
-    margin-top: 40px;
-    margin-bottom: 20px;
     grid-area: youjin;
+}
+
+.youjintext{
+    grid-area: youjintext;
 }
 
 .albums{

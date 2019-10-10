@@ -1,7 +1,9 @@
 @media only screen and (max-width: 800px) {
+
     html{
 
         margin: auto;
+        overflow-x: hidden;
         font-family: 'Sunflower', sans-serif;
 
         background-color: #FF8EA2;
@@ -9,6 +11,8 @@
     }
 
     body{
+        overflow-x: hidden;
+        Position: relative;
         width: 350px;
         margin-right: 10px;
         margin-left: 10px;
@@ -66,6 +70,13 @@
         margin-bottom: 20px;
         margin-left: 78px;
     }
+    .jihuntext,.seohamtext,.dongwontext,.inseongtext,.heejuntext,.youjintext{
+        width: 300px;
+        margin-left: 28px;
+    }
+    .youjintext{
+        margin-bottom: 15px;
+    }
 
     #music,#unmute{
         text-align: center;
@@ -85,7 +96,7 @@
 
     .nav1{
         margin-left: 0 auto;
-        margin-right: 175px;
+        margin-right: 160px;
         font-size: 15px;
     }
     .nav1text{
@@ -93,8 +104,8 @@
     }
 
     .nav2{
-        margin-right: 200px;
-        font-size: 15px;
+        margin-right: 180px;
+        font-size: 12px;
     }
 
     .nav2text{
@@ -119,7 +130,7 @@
     }
 
 
-    /* LINK STYLING */
+    /* LINK STYLING*/
 
     a:link {
         text-decoration: none;
@@ -195,37 +206,77 @@
         float: left;
         width: 300px;
         height: 300px;
-        margin: 10px;
+        margin: 27px;
     }
     .jihun,.seoham,.dongwon,.inseong,.heejun,.youjin{
         font-size: 15px;
         height: 300px;
     }
-    article{
 
+    .members{
+        width: 600px;
+        display: grid;
+        grid-template-areas:
+            "jihun"
+            "jihuntext"
+            "seoham"
+            "seohamtext"
+            "dongwon"
+            "dongwontext"
+            "inseong"
+            "inseongtext"
+            "heejun"
+            "heejuntext"
+            "youjin"
+            "youjintext"
     }
-    #jihun,#seoham,#dongwon,#inseong,#heejun,#youjin{
-        margin-bottom: 100px;
+
+    .jihun{
+        grid-area: jihun;
     }
+
+    .jihuntext{
+        grid-area: jihuntext;
+    }
+
     .seoham{
-        margin-top: 25px;
+        grid-area: seoham;
     }
+
+    .seohamtext{
+        grid-area: seohamtext;
+    }
+
     .dongwon{
-        margin-top: 22px;
         grid-area: dongwon;
     }
+
+    .dongwontext{
+        grid-area: dongwontext;
+    }
+
     .inseong{
-        margin-top: 35px;
         grid-area: inseong;
     }
+
+    .inseongtext{
+        grid-area: inseongtext;
+    }
+
     .heejun{
-        margin-top: 30px;
         grid-area: heejun;
     }
+
+    .heejuntext{
+        grid-area: heejuntext;
+    }
+
     .youjin{
-        margin-top: 40px;
-        margin-bottom: 20px;
         grid-area: youjin;
+    }
+
+    .youjintext{
+        grid-area: youjintext;
     }
 
     .albums{

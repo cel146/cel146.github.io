@@ -1,0 +1,59 @@
+.members{
+    width: 600px;
+    display: grid;
+    grid-template-areas:
+        "jihun jihuntext"
+        "seoham seohamtext"
+        "dongwon dongwontext"
+        "inseong inseongtext"
+        "heejun heejuntext"
+        "youjin youjintext"
+}
+
+.jihun{
+    grid-area: jihun;
+}
+
+.jihuntext{
+    grid-area: jihuntext;
+}
+
+.seoham{
+    grid-area: seoham;
+}
+
+.seohamtext{
+    grid-area: seohamtext;
+}
+
+.dongwon{
+    grid-area: dongwon;
+}
+
+.dongwontext{
+    grid-area: dongwontext;
+}
+
+.inseong{
+    grid-area: inseong;
+}
+
+.inseongtext{
+    grid-area: inseongtext;
+}
+
+.heejun{
+    grid-area: heejun;
+}
+
+.heejuntext{
+    grid-area: heejuntext;
+}
+
+.youjin{
+    grid-area: youjin;
+}
+
+.youjintext{
+    grid-area: youjintext;
+}
