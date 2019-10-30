@@ -1,0 +1,141 @@
+html {
+  background-color: #ffffff;
+}
+body {
+  margin-left: 22%;
+  margin-right: 22%;
+
+  border: 3px solid;
+  border-color: #ffd151;
+}
+
+div {
+  background-color: #fefcdb;
+  width: 800px;
+  display: inline-block;
+}
+
+.nav1 {
+  background-color: #f9a03f;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.navtext {
+  font-family: "Karla", sans-serif;
+  margin-left: 20px;
+}
+
+.nav2 {
+  background-color: #f9a03f;
+  border: 3px solid;
+  border-color: #ffd151;
+}
+.nav2text {
+  font-family: "Karla", sans-serif;
+  margin-left: 20px;
+}
+
+h1 {
+  font-family: "Mansalva", cursive;
+  text-align: left;
+}
+h2 {
+  font-size: 17px;
+  font-family: "Karla", sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: "Mansalva", cursive;
+  text-decoration: underline;
+  text-decoration-color: #f05a28;
+}
+h4 {
+  font-family: "Mansalva", cursive;
+  font-size: 20px;
+}
+hr {
+  border: 1px solid #ffd151;
+  height: 3px;
+  background-color: #ffd151;
+  margin: 0 auto;
+}
+p,
+ul,
+ol {
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  width: 790px;
+}
+a:link {
+  text-decoration: none;
+  color: #fefcdb;
+}
+a:visited {
+  color: #fefcdb;
+}
+a:hover {
+  background-color: #f05a28;
+}
+a:active {
+  color: #fb6107;
+}
+
+#sandwich {
+  width: 450px;
+  margin-left: 18%;
+}
+#pull {
+  width: 40px;
+  display: inline;
+}
+button {
+  font-family: "Mansalva", cursive;
+  color: #ffffff;
+  background-color: #f9a03f;
+  font-size: 20px;
+  margin-left: 20px;
+  padding: 0px;
+}
+#tip1 {
+  border: 3px solid;
+  border-color: #f9a03f;
+  margin-left: 20px;
+  width: 700px;
+  padding: 0px;
+  margin-top: 0 auto;
+}
+
+/*.intro {
+  display: grid;
+  grid-template-areas:
+    "nav nav nav"
+    "title title title"
+    "quote quote quote"
+    "history history history";
+}
+.nav1 {
+  grid-area: nav;
+}
+#howto {
+  grid-area: title;
+}
+#simple {
+  grid-area: quote;
+}
+#history {
+  grid-area: history;
+}
+
+/*FONTS
+font-family: 'Mansalva', cursive;
+font-family: 'Karla', sans-serif;*/
+
+/* COLORS
+GREY: #EBE7E4
+RED: #A63B1B
+BEIGE: #EBDDC2
+ORANGE: #DB9D4A
+BROWN: #765A56 */
