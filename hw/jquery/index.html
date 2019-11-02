@@ -67,29 +67,31 @@
         <p>Coat one side of each piece of bread so that it will crisp up and not burn when you put it in the pan.</p>
         <button type="button" name="button" id="button1">Tip!</button>
         <br>
-        <p id="tip1"> Use room-tempurature butter so it spreads nicely without tearing the bread.</p>
-        <img src="images/butter.gif" alt="">
+        <p id="tip1"> </p>
+        <img id="spread" src="images/butter.gif" alt="">
       </section>
       <section id="number2">
         <h4 class="step two">Step 2</h4>
         <p>Preheat your pan on your stove over medium heat.</p>
         <p>Let the pan heat up completely before putting your sandwhich on so you get an even cook.</p>
-        <p id="tip2">Flick a few drops of water on the pan, and if they sizzle and evaporate right away, your pan’s hot enough for the sandwich.</p>
-        <img src="images/" alt="">
+        <button type="button" name="button" id="button2">Tip!</button>
+        <br>
+        <p id="tip2"> </p>
+        <img id="pan" src="images/pan.gif" alt="">
 
       </section>
       <section id="number3">
         <h4 class="step three">Step 3</h4>
         <p>Assemble your sandwich in the pan.</p>
         <p>Once the pan is hot, put the first slice of bread buttered-side down inside of it. Top the piece of bread with 1-2 slices of your favorite cheese before putting the second slice of bread on top with the buttered side face-up.</p>
-        <img src="images/assembly.gif" alt="">
+        <img id="assemble" src="images/assembly.gif" alt="">
 
       </section>
       <section id="number4">
         <h4 class="step four">Step 4</h4>
         <p>Cook the bottom slice of bread for 3-4 minutes or until it’s golden brown.</p>
         <p>Lift the sandwich with a spatula occasionally so you can check the color of the bottom slice.</p>
-        <img src="images/spatula.gif" alt="">
+        <img id="spatula" src="images/spatula.gif" alt="">
       </section>
       <section id="number5">
         <h4 class="step five">Step 5</h4>
@@ -97,15 +99,16 @@
         <p>Slide a spatula underneath the bottom slice of bread and quickly flip the sandwich over so the buttered side of the second slice is face down. Press down on the sandwich with your spatula to ensure the bread cooks evenly. Let the sandwich
           cook
           for until the bread’s golden brown and cheese has melted.</p>
-
-        <p id="tip3">Flip the sandwich over again if the first slice is undercooked so it can crisp up again.</p>
-        <img src="images/flip.gif" alt="">
+        <button type="button" name="button" id="button3">Tip!</button>
+        <br>
+        <p id="tip3"> </p>
+        <img id="flip" src="images/flip.gif" alt="">
       </section>
       <section id="number6">
         <h4 class="step six">Step 6</h4>
         <p>Cut the sandwich before serving it.</p>
         <p>Use a butter knife or bread knife to cut the sandwich diagonally to help it cool off before you eat it. Serve the sandwich while it’s still hot.</p>
-        <img src="images/cut.gif" alt="">
+        <img id="cut" src="images/cut.gif" alt="">
 
       </section>
 
@@ -128,8 +131,21 @@
   <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript">
-    var tools = 1
+    var sandwichclicked = 0;
     $(document).ready(function() {
+      //RAPIDLY CLICK THE SANDWICH
+      //there is no point to it
+      $("#sandwich").click(function() {
+        if (sandwichclicked === 0) {
+          $("#sandwich").css("width", "500px");
+          sandwichclicked = 1;
+
+        } else {
+          $("#sandwich").css("width", "450px");
+          sandwichclicked = 0;
+
+        }
+      });
 
     });
     $(window).on('load', function() {
@@ -138,6 +154,10 @@
       $(".instructionsnav").hide();
       $(".instructions").hide();
       $(".FAQ").hide();
+    });
+    $("#sandwich").click(function() {
+      $("#sandwich").css("border", "40px")
+
     });
     $("#tools").click(function() {
       //$("#toolshead").css("font-size", "30px");
@@ -185,10 +205,12 @@
       $("#number6").hide();
     });
     $("#button1").click(function() {
+      $("#tip1").html("<p>Use room-tempurature butter so it spreads nicely without tearing the bread.</p>");
       $("#tip1").show();
     });
     $("#step2").click(function() {
       $(".instructions").show();
+      $("#tip2").hide();
       $("#number1").hide();
       $("#number2").show();
       $("#number3").hide();
@@ -196,6 +218,13 @@
       $("#number5").hide();
       $("#number6").hide();
     });
+
+    $("#button2").click(function() {
+      $("#tip2").show();
+      $("#tip2").html("<p>Flick a few drops of water on the pan, and if they sizzle and evaporate right <br> away, your pan’s hot enough for the sandwich.</p>");
+
+    });
+
     $("#step3").click(function() {
       $(".instructions").show();
       $("#number1").hide();
@@ -216,12 +245,17 @@
     });
     $("#step5").click(function() {
       $(".instructions").show();
+      $("#tip3").hide();
       $("#number1").hide();
       $("#number2").hide();
       $("#number3").hide();
       $("#number4").hide();
       $("#number5").show();
       $("#number6").hide();
+    });
+    $("#button3").click(function() {
+      $("#tip3").html("<p>Flip the sandwich over again if the first slice is undercooked so it can crisp <br> up again.</p>");
+      $("#tip3").show();
     });
     $("#step6").click(function() {
       $(".instructions").show();

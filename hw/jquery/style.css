@@ -99,13 +99,28 @@ button {
   margin-left: 20px;
   padding: 0px;
 }
-#tip1 {
+#tip1,
+#tip2,
+#tip3 {
   border: 3px solid;
   border-color: #f9a03f;
   margin-left: 20px;
   width: 700px;
   padding: 0px;
   margin-top: 0 auto;
+}
+
+#spread,
+#assemble,
+#pan {
+  width: 400px;
+  margin-left: 200px;
+}
+#spatula,
+#flip,
+#cut {
+  width: 300px;
+  margin-left: 230px;
 }
 
 /*.intro {
