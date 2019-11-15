@@ -6,15 +6,23 @@
   <title>How to make a Grilled Cheese</title>
   <meta name="author" content="cidnee lassiter">
   <meta name="description" content="this is a website about how to make a grilled cheese">
+  <link rel="stylesheet" type="text/css" href="splitchar.css">
   <link rel="stylesheet" href="style.css">
+
+
+
+
   <link href="https://fonts.googleapis.com/css?family=Karla|Mansalva&display=swap" rel="stylesheet">
+  <script src="js/plugins/splitchar.js" charset="utf-8"></script>
 </head>
 
 <body>
   <div class="intro">
     <header>
+      <h1> <img id="pull" src="images/pull.gif" alt="cheese pull bro"></h1>
 
-      <h1 id="howto">How to Grilled Cheese! <img id="pull" src="images/pull.gif" alt="cheese pull bro"></h1>
+      <h1 class="splitchar horizontal">How to Grilled Cheese!</h1>
+
 
       <h2 id="simple"><i> "A grilled cheese sandwich is a hot sandwich made with one or more varieties of cheese on bread."</i></h2>
       <hr>
@@ -34,7 +42,7 @@
   <main>
 
     <div class="tools">
-      <h3 id="toolshead">Tools</h3>
+      <h3 class="splitchar horizontal" id="toolshead">TOOLS</h3>
       <ul id="toolslist">
         <li>A stove</li>
         <li>A butter knife</li>
@@ -43,7 +51,7 @@
 
     </div>
     <div class="ingredients">
-      <h3>Ingredients</h3>
+      <h3 class="splitchar horizontal">INGREDIENTS</h3>
       <ul id="ing">
         <li>Butter (unsalted/salted it doesn't matter, I promise)</li>
         <li>2 slices of bread (preferably not the 2 end pieces)</li>
@@ -51,7 +59,7 @@
       </ul>
     </div>
     <div class="instructionsnav">
-      <h3>Instructions</h3>
+      <h3 class="splitchar horizontal">INSTRUCTIONS</h3>
       <nav class="nav2">
         <a class="nav2text" id="step1" href="#stepone">Step One</a>
         <a class="nav2text" id="step2" href="#steptwo">Step Two</a>
@@ -63,7 +71,7 @@
     </div>
     <div class="instructions">
       <section id="number1">
-        <h4 class="stepone">Step 1</h4>
+        <h4 class="splitchar horizontal" class="stepone">Step 1</h4>
         <p>Butter a single side on the 2 slices of bread.</p>
         <p>Coat one side of each piece of bread so that it will crisp up and not burn when you put it in the pan.</p>
         <button type="button" name="button" id="button1">Tip!</button>
@@ -72,7 +80,7 @@
         <img id="spread" src="images/butter.gif" alt="">
       </section>
       <section id="number2">
-        <h4 class="steptwo">Step 2</h4>
+        <h4 class="splitchar horizontal" class="steptwo">Step 2</h4>
         <p>Preheat your pan on your stove over medium heat.</p>
         <p>Let the pan heat up completely before putting your sandwhich on so you get an even cook.</p>
         <button type="button" name="button" id="button2">Tip!</button>
@@ -82,20 +90,20 @@
 
       </section>
       <section id="number3">
-        <h4 class="stepthree">Step 3</h4>
+        <h4 class="splitchar horizontal" class="stepthree">Step 3</h4>
         <p>Assemble your sandwich in the pan.</p>
         <p>Once the pan is hot, put the first slice of bread buttered-side down inside of it. Top the piece of bread with 1-2 slices of your favorite cheese before putting the second slice of bread on top with the buttered side face-up.</p>
         <img id="assemble" src="images/assembly.gif" alt="">
 
       </section>
       <section id="number4">
-        <h4 class="stepfour">Step 4</h4>
+        <h4 class="splitchar horizontal" class="stepfour">Step 4</h4>
         <p>Cook the bottom slice of bread for 3-4 minutes or until it’s golden brown.</p>
         <p>Lift the sandwich with a spatula occasionally so you can check the color of the bottom slice.</p>
         <img id="spatula" src="images/spatula.gif" alt="">
       </section>
       <section id="number5">
-        <h4 class="stepfive">Step 5</h4>
+        <h4 class="splitchar horizontal" class="stepfive">Step 5</h4>
         <p>Flip the sandwich to cook the other side for 2-3 minutes.</p>
         <p>Slide a spatula underneath the bottom slice of bread and quickly flip the sandwich over so the buttered side of the second slice is face down. Press down on the sandwich with your spatula to ensure the bread cooks evenly. Let the sandwich
           cook
@@ -106,7 +114,7 @@
         <img id="flip" src="images/flip.gif" alt="">
       </section>
       <section id="number6">
-        <h4 class="stepsix">Step 6</h4>
+        <h4 class="splitchar horizontal" class="stepsix">Step 6</h4>
         <p>Cut the sandwich before serving it.</p>
         <p>Use a butter knife or bread knife to cut the sandwich diagonally to help it cool off before you eat it. Serve the sandwich while it’s still hot.</p>
         <img id="cut" src="images/cut.gif" alt="">
@@ -131,22 +139,24 @@
   </aside>
   <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/plugins/splitchar.js"></script>
   <script type="text/javascript">
     var sandwichclicked = 0;
     $(document).ready(function() {
-      //RAPIDLY CLICK THE SANDWICH
-      //there is no point to it
-      $("#sandwich").click(function() {
-        if (sandwichclicked === 0) {
-          $("#sandwich").css("width", "500px");
-          sandwichclicked = 1;
+      $(".splitchar").splitchar();
+    });
+    //RAPIDLY CLICK THE SANDWICH
+    //there is no point to it
+    $("#sandwich").click(function() {
+      if (sandwichclicked === 0) {
+        $("#sandwich").css("width", "500px");
+        sandwichclicked = 1;
 
-        } else {
-          $("#sandwich").css("width", "450px");
-          sandwichclicked = 0;
+      } else {
+        $("#sandwich").css("width", "450px");
+        sandwichclicked = 0;
 
-        }
-      });
+      }
 
     });
     $(window).on('load', function() {

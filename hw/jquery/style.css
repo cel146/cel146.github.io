@@ -4,7 +4,6 @@ html {
 body {
   margin-left: 22%;
   margin-right: 22%;
-
   border: 3px solid;
   border-color: #ffd151;
 }
@@ -13,6 +12,16 @@ div {
   background-color: #fefcdb;
   width: 800px;
   display: inline-block;
+}
+#howto {
+  display: inline-block;
+  float: left;
+}
+
+#howto,
+#simple,
+#history {
+  padding-left: 10px;
 }
 
 .nav1 {
@@ -37,28 +46,37 @@ div {
 }
 
 h1 {
+  margin: 0;
+  margin-top: 10px;
   font-family: "Mansalva", cursive;
   text-align: left;
+  font-size: 40px;
 }
 h2 {
   font-size: 17px;
   font-family: "Karla", sans-serif;
+  margin-top: 0;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 20px;
   font-family: "Mansalva", cursive;
-  text-decoration: underline;
-  text-decoration-color: #f05a28;
+  /* text-decoration: underline; */
+  /* text-decoration-color: #f05a28; */
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 h4 {
   font-family: "Mansalva", cursive;
-  font-size: 20px;
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 hr {
   border: 1px solid #ffd151;
-  height: 3px;
+  height: 4px;
   background-color: #ffd151;
   margin: 0 auto;
 }
@@ -88,8 +106,10 @@ a:active {
   margin-left: 18%;
 }
 #pull {
-  width: 40px;
-  display: inline;
+  width: 50px;
+  display: inline-block;
+  float: right;
+  margin-right: 360px;
 }
 button {
   font-family: "Mansalva", cursive;
