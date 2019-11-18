@@ -1,6 +1,6 @@
 @media only screen and (max-width: 400px) {
   html {
-    margin: auto;
+    /* margin: auto; */
     overflow-x: hidden;
     font-family: "Sunflower", sans-serif;
 
