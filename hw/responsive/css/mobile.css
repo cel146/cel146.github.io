@@ -1,336 +1,331 @@
 @media only screen and (max-width: 800px) {
+  html {
+    margin: auto;
+    overflow-x: hidden;
+    font-family: "Sunflower", sans-serif;
 
-    html{
+    background-color: #ff8ea2;
+  }
 
-        margin: auto;
-        overflow-x: hidden;
-        font-family: 'Sunflower', sans-serif;
-
-        background-color: #FF8EA2;
-
-    }
-
-    body{
-        overflow-x: hidden;
-        Position: relative;
-        /*width: 380px;*/
-        /*margin-right: 10px;
+  body {
+    overflow-x: hidden;
+    position: relative;
+    width: 355px;
+    /*margin-right: 10px;
         margin-left: 100px;*/
-        border: 3px solid;
-        border-color: #ffb2b9;
-        font-family: 'Poppins', sans-serif;
-        background-color: #ffffff;
-    }
+    border: 3px solid;
+    border-color: #ffb2b9;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+  }
 
-    /* STYLE PROPERTIES*/
+  /* STYLE PROPERTIES*/
 
-    .the_knk,.about{
-        text-align: center;
-    }
+  .the_knk,
+  .about {
+    text-align: center;
+  }
 
-    h1,h3 {
-        background-color: #FFB2B9;
-        width: 200px;
-        margin-left: 80px;
-        margin-top: 0;
-        margin-bottom: 0;
-        text-align: center;
-        font-size: 25px;
-    }
+  h1,
+  h3 {
+    background-color: #ffb2b9;
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 25px;
+  }
 
-    h3 {
-        margin-bottom: 10px;
-    }
-    h2{
-        padding-left: 100px;
-        margin: 0 auto;
-        text-decoration: underline;
-        text-decoration-color: #FF8EA2;
-    }
-    h4{
-        padding-left: 155px;
-        margin: 0 auto;
-    }
+  h3 {
+    margin-bottom: 10px;
+  }
+  h2 {
+    padding-left: 100px;
+    margin: 0 auto;
+    text-decoration: underline;
+    text-decoration-color: #ff8ea2;
+  }
+  h4 {
+    padding-left: 155px;
+    margin: 0 auto;
+  }
 
-    .general{
-        width: 350px;
-    }
+  .general {
+    width: 350px;
+  }
 
-    #group {
+  #group {
+    width: 300px;
+    border: 3px solid;
+    border-color: #ffb2b9;
+  }
 
-        width: 300px;
-        border: 3px solid;
-        border-color: #FFB2B9;
-    }
+  hr {
+    width: 200px;
+    height: 2px;
+    background-color: #ff8ea2;
+    margin-bottom: 20px;
+    margin-left: 78px;
+  }
+  .jihuntext,
+  .seohamtext,
+  .dongwontext,
+  .inseongtext,
+  .heejuntext,
+  .youjintext {
+    width: 300px;
+    margin-left: 28px;
+  }
+  .youjintext {
+    margin-bottom: 15px;
+  }
 
-    hr{
-        width: 200px;
-        height: 2px;
-        background-color: #FF8EA2;
-        margin-bottom: 20px;
-        margin-left: 78px;
-    }
-    .jihuntext,.seohamtext,.dongwontext,.inseongtext,.heejuntext,.youjintext{
-        width: 300px;
-        margin-left: 28px;
-    }
-    .youjintext{
-        margin-bottom: 15px;
-    }
+  #music,
+  #unmute {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #ff8ea2;
+    font-size: 18px;
+  }
 
-    #music,#unmute{
-        text-align: center;
-        text-decoration: underline;
-        text-decoration-color: #FF8EA2;
-        font-size: 18px;
+  #knock,
+  #gravity,
+  #ln,
+  #ss {
+    width: 130px;
+    height: 130px;
+    border: 3px solid;
+    border-color: #ffb2b9;
+    margin-left: 25px;
+  }
 
-    }
+  .nav1 {
+    margin-left: 0px;
+    margin-right: 160px;
+    font-size: 15px;
+  }
+  .nav1text {
+    margin-right: 10px;
+  }
 
-    #knock,#gravity,#ln,#ss {
-        width: 130px;
-        height: 130px;
-        border: 3px solid;
-        border-color: #FFB2B9;
-        margin-left: 25px;
-    }
+  .nav2 {
+    margin-right: 180px;
+    font-size: 12px;
+  }
 
-    .nav1{
-        margin-left: 0px;
-        margin-right: 160px;
-        font-size: 15px;
-    }
-    .nav1text{
-        margin-right: 10px;
-    }
+  .nav2text {
+    margin-left: 10px;
+  }
 
-    .nav2{
-        margin-right: 180px;
-        font-size: 12px;
-    }
+  iframe {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    border: 3px solid;
+    border-color: #ffb2b9;
+  }
 
-    .nav2text{
-        margin-left: 10px;
-    }
+  .performance {
+    margin-left: 0px;
+  }
+  footer {
+    text-align: center;
+    font-size: 12px;
+  }
 
-    iframe{
-        width: 250px;
-        height: 250px;
-        margin-bottom: 30px;
-        margin-left: 50px;
-        border: 3px solid;
-        border-color: #FFB2B9;
-    }
+  /* LINK STYLING*/
 
-    .performance{
-        margin-left: 0px;
-    }
-    footer{
-        text-align: center;
-        font-size: 12px;
-    }
+  a:link {
+    text-decoration: none;
+    color: #f5536a;
+  }
 
+  a:visited {
+    color: #f5536a;
+  }
 
-    /* LINK STYLING*/
+  a:hover {
+    color: #ffb2b9;
+  }
 
-    a:link {
-        text-decoration: none;
-        color: #F5536A;
-    }
+  a:active {
+    color: #f5536a;
+  }
 
-    a:visited {
-        color: #F5536A;
-    }
+  /* GRID PROPERTIES*/
 
-    a:hover {
+  .grid_container {
+    width: 600px;
+    display: grid;
+    grid-template-areas:
+      "the_knk the_knk the_knk"
+      "nav1 nav1 nav1"
+      "nav2 nav2 nav2";
+  }
 
-        color: #FFB2B9;
-    }
+  .the_knk {
+    grid-area: the_knk;
+  }
 
-    a:active {
+  .nav1 {
+    grid-area: nav1;
+  }
 
-        color: #F5536A;
-    }
+  .nav2 {
+    grid-area: nav2;
+  }
 
+  .grid_container2 {
+    width: 600px;
+    display: grid;
+    grid-template-areas: "more more more";
+  }
 
-    /* GRID PROPERTIES*/
+  .members {
+    grid-area: members;
+    margin-left: 0px;
+  }
 
-    .grid_container {
-        width: 600px;
-        display: grid;
-        grid-template-areas:
-            "the_knk the_knk the_knk"
-            "nav1 nav1 nav1"
-            "nav2 nav2 nav2"
-            ;
-    }
+  .more {
+    width: 300px;
+    grid-area: more;
+    padding-left: 25px;
+    padding-right: 15px;
+    text-align: center;
+  }
 
-    .the_knk {
-        grid-area: the_knk;
+  .jpgs {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 27px;
+  }
+  .jihun,
+  .seoham,
+  .dongwon,
+  .inseong,
+  .heejun,
+  .youjin {
+    font-size: 15px;
+    height: 300px;
+  }
 
+  .members {
+    width: 600px;
+    display: grid;
+    grid-template-areas:
+      "jihun"
+      "jihuntext"
+      "seoham"
+      "seohamtext"
+      "dongwon"
+      "dongwontext"
+      "inseong"
+      "inseongtext"
+      "heejun"
+      "heejuntext"
+      "youjin"
+      "youjintext";
+  }
 
-    }
+  .jihun {
+    grid-area: jihun;
+  }
 
-    .nav1 {
-        grid-area: nav1;
+  .jihuntext {
+    grid-area: jihuntext;
+  }
 
+  .seoham {
+    grid-area: seoham;
+  }
 
-    }
+  .seohamtext {
+    grid-area: seohamtext;
+  }
 
-    .nav2 {
-        grid-area: nav2
-    }
+  .dongwon {
+    grid-area: dongwon;
+  }
 
-    .grid_container2 {
-        width: 600px;
-        display: grid;
-        grid-template-areas:
-            "more more more"
-            ;
-    }
+  .dongwontext {
+    grid-area: dongwontext;
+  }
 
-    .members{
-        grid-area: members;
-        margin-left: 0px;
+  .inseong {
+    grid-area: inseong;
+  }
 
-    }
+  .inseongtext {
+    grid-area: inseongtext;
+  }
 
-    .more{
-        width: 300px;
-        grid-area: more;
-        padding-left: 25px;
-        padding-right: 15px;
-        text-align: center;
-    }
+  .heejun {
+    grid-area: heejun;
+  }
 
-    .jpgs {
-        float: left;
-        width: 300px;
-        height: 300px;
-        margin: 27px;
-    }
-    .jihun,.seoham,.dongwon,.inseong,.heejun,.youjin{
-        font-size: 15px;
-        height: 300px;
-    }
+  .heejuntext {
+    grid-area: heejuntext;
+  }
 
-    .members{
-        width: 600px;
-        display: grid;
-        grid-template-areas:
-            "jihun"
-            "jihuntext"
-            "seoham"
-            "seohamtext"
-            "dongwon"
-            "dongwontext"
-            "inseong"
-            "inseongtext"
-            "heejun"
-            "heejuntext"
-            "youjin"
-            "youjintext"
-    }
+  .youjin {
+    grid-area: youjin;
+  }
 
-    .jihun{
-        grid-area: jihun;
-    }
+  .youjintext {
+    grid-area: youjintext;
+  }
 
-    .jihuntext{
-        grid-area: jihuntext;
-    }
+  .albums {
+    width: 300px;
+    display: grid;
+    grid-template-areas:
+      "knock gravity"
+      "ln ss";
+  }
 
-    .seoham{
-        grid-area: seoham;
-    }
+  .knock {
+    grid-area: knock;
+  }
 
-    .seohamtext{
-        grid-area: seohamtext;
-    }
+  .gravity {
+    grid-area: gravity;
+  }
 
-    .dongwon{
-        grid-area: dongwon;
-    }
+  .lonelynight {
+    grid-area: ln;
+  }
 
-    .dongwontext{
-        grid-area: dongwontext;
-    }
+  .sscollection {
+    grid-area: ss;
+  }
 
-    .inseong{
-        grid-area: inseong;
-    }
+  .performance {
+    width: 600px;
+    display: grid;
+    grid-template-areas:
+      "debut"
+      "views"
+      "liked"
+      "recent";
+  }
 
-    .inseongtext{
-        grid-area: inseongtext;
-    }
+  .debut {
+    grid-area: debut;
+  }
 
-    .heejun{
-        grid-area: heejun;
-    }
-
-    .heejuntext{
-        grid-area: heejuntext;
-    }
-
-    .youjin{
-        grid-area: youjin;
-    }
-
-    .youjintext{
-        grid-area: youjintext;
-    }
-
-    .albums{
-        width:300px;
-        display: grid;
-        grid-template-areas:
-            "knock gravity"
-             "ln ss"
-    }
-
-    .knock{
-        grid-area: knock;
-    }
-
-    .gravity{
-        grid-area: gravity;
-    }
-
-    .lonelynight{
-        grid-area: ln;
-    }
-
-    .sscollection{
-        grid-area: ss;
-    }
-
-    .performance{
-        width:600px;
-        display: grid;
-        grid-template-areas:
-            "debut"
-            "views"
-            "liked"
-            "recent"
-    }
-
-    .debut{
-        grid-area: debut;
-    }
-
-    .views{
-        grid-area: views;
-    }
-    .liked{
-        grid-area: liked;
-    }
-    .recent{
-        grid-area: recent;
-    }
-
+  .views {
+    grid-area: views;
+  }
+  .liked {
+    grid-area: liked;
+  }
+  .recent {
+    grid-area: recent;
+  }
 }
-
-
-
 
 /* font families
 font-family: 'Sunflower', sans-serif;
