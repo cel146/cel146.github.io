@@ -11,8 +11,8 @@
     overflow-x: hidden;
     position: relative;
     max-width: 355px;
-    /*margin-right: 10px;
-        margin-left: 100px;*/
+    margin-right: 10px;
+    margin-left: 100px;
     border: 3px solid;
     border-color: #ffb2b9;
     font-family: "Poppins", sans-serif;
