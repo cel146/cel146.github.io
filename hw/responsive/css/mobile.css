@@ -178,7 +178,7 @@
   }
 
   .grid_container2 {
-    width: 3500px;
+    width: 350px;
     display: grid;
     grid-template-areas: "more more more";
   }
