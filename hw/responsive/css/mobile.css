@@ -10,7 +10,7 @@
   body {
     overflow-x: hidden;
     position: relative;
-    max-width: 300px;
+    max-width: 400px;
     margin-left: 10px;
     border: 3px solid;
     border-color: #ffb2b9;
@@ -29,7 +29,7 @@
   h3 {
     background-color: #ffb2b9;
     width: 200px;
-    /* margin-left: 80px; */
+    margin-left: 70px;
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
@@ -100,8 +100,8 @@
   }
 
   .nav1 {
-    margin-left: 0px;
-    margin-right: 160px;
+    margin-left: 6px;
+    margin-right: 0px;
     font-size: 15px;
   }
   .nav1text {
@@ -109,7 +109,7 @@
   }
 
   .nav2 {
-    margin-right: 180px;
+    margin-right: 13px;
     font-size: 12px;
   }
 
