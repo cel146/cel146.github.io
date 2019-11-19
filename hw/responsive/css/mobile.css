@@ -28,7 +28,7 @@
   h1,
   h3 {
     background-color: #ffb2b9;
-    width: 390px;
+    width: 200px;
     margin-left: 70px;
     margin-top: 0;
     margin-bottom: 0;
@@ -51,11 +51,11 @@
   }
 
   .general {
-    width: 390px;
+    width: 350px;
   }
 
   #group {
-    width: 390px;
+    width: 300px;
     border: 3px solid;
     border-color: #ffb2b9;
   }
@@ -73,7 +73,7 @@
   .inseongtext,
   .heejuntext,
   .youjintext {
-    width: 390px;
+    width: 300px;
     margin-left: 28px;
   }
   .youjintext {
@@ -156,7 +156,7 @@
   /* GRID PROPERTIES*/
 
   .grid_container {
-    width: 390px;
+    width: 350px;
     display: grid;
     grid-template-areas:
       "the_knk the_knk the_knk"
@@ -177,7 +177,7 @@
   }
 
   .grid_container2 {
-    width: 390px;
+    width: 350px;
     display: grid;
     grid-template-areas: "more more more";
   }
@@ -188,7 +188,7 @@
   }
 
   .more {
-    width: 390px;
+    width: 300px;
     grid-area: more;
     padding-left: 25px;
     padding-right: 15px;
@@ -212,7 +212,7 @@
   }
 
   .members {
-    width: 390px;
+    width: 350px;
     display: grid;
     grid-template-areas:
       "jihun"
