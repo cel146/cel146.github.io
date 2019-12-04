@@ -24,6 +24,9 @@
   .about {
     text-align: center;
   }
+  .ynb {
+    display: none;
+  }
 
   h1,
   h3 {
