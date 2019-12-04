@@ -156,15 +156,12 @@
   /* GRID PROPERTIES*/
 
   .grid_container {
-    width: 600px;
+    width: 350px;
     display: grid;
     grid-template-areas:
-      "the_knk nav1"
-      "nav2 nav2"
-      "group group";
-  }
-  #group {
-    grid-area: group;
+      "the_knk the_knk the_knk"
+      "nav1 nav1 nav1"
+      "nav2 nav2 nav2";
   }
 
   .the_knk {
@@ -180,31 +177,14 @@
   }
 
   .grid_container2 {
-    padding-top: 9px;
-    width: 600px;
+    width: 350px;
     display: grid;
-    grid-template-areas:
-      "general more"
-      "ynb more";
-  }
-
-  .ynb {
-    grid-area: ynb;
-    padding-left: 10px;
-    width: 240px;
-    margin-top: 0px;
-    padding-top: 0px;
+    grid-template-areas: "more more more";
   }
 
   .members {
     grid-area: members;
     margin-left: 0px;
-  }
-
-  .general {
-    grid-area: general;
-    width: 260px;
-    padding-left: 10px;
   }
 
   .more {
