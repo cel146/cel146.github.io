@@ -161,7 +161,11 @@
     grid-template-areas:
       "the_knk the_knk the_knk"
       "nav1 nav1 nav1"
-      "nav2 nav2 nav2";
+      "nav2 nav2 nav2"
+      "group group group";
+  }
+  #group {
+    grid-area: group;
   }
 
   .the_knk {
