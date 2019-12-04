@@ -54,11 +54,12 @@
   }
 
   .general {
-    width: 350px;
+    margin-left: 30px;
+    width: 300px;
   }
 
   #group {
-    padding-left: 300px;
+    margin-left: 20px;
     width: 300px;
     border: 3px solid;
     border-color: #ffb2b9;
@@ -200,7 +201,7 @@
     grid-area: more;
     padding-left: 25px;
     padding-right: 15px;
-    text-align: center;
+    text-align: justify;
   }
 
   .jpgs {
