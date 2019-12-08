@@ -1,0 +1,197 @@
+@media only screen and (min-width: 800px) {
+  /* art css */
+
+  .header {
+    width: 100%;
+    height: 140px;
+    top: 0px;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    opacity: 1;
+    padding-bottom: 0;
+    display: block;
+  }
+  .section {
+    font-size: 30px;
+    text-align: center;
+  }
+  .section {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .flowers,
+  .tomatoes,
+  .lyscube,
+  .euphoria,
+  .plant,
+  .sheets {
+    background-color: white;
+
+    margin-top: 140px;
+  }
+  h2 {
+    font-family: "Anonymous Pro", monospace;
+  }
+  p {
+    font-family: "Anonymous Pro", monospace;
+  }
+
+  #flowers {
+    width: 350px;
+    height: 100%;
+    padding: 0;
+  }
+  #tomatoes {
+    width: 600px;
+    height: 100%;
+    padding: 0;
+  }
+  #lyscube {
+    width: 450px;
+    height: 100%;
+    padding: 0;
+  }
+  #euphoria {
+    width: 450px;
+    height: 100%;
+    padding: 0;
+  }
+  #plant {
+    width: 400px;
+    height: 100%;
+    padding: 0;
+  }
+  #plantref {
+    width: 300px;
+    height: 100%;
+    padding: 0;
+  }
+  #sheets {
+    width: 400px;
+    height: 100%;
+    padding: 0;
+  }
+  #sheetsref {
+    width: 300px;
+    height: 100%;
+    padding: 0;
+  }
+
+  /* art grids */
+
+  .flowers {
+    display: grid;
+    grid-template-areas:
+      "flowershead flowershead"
+      "flowerspic flowerscont";
+  }
+
+  .flowershead {
+    text-align: center;
+
+    grid-area: flowershead;
+  }
+
+  .flowerspic {
+    grid-area: flowerspic;
+  }
+  .flowerscont {
+    width: 500px;
+    grid-area: flowerscont;
+  }
+  .tomatoes {
+    display: grid;
+    grid-template-areas:
+      "tomatoeshead tomatoeshead"
+      "tomatoespic tomatoescont";
+  }
+  .tomatoeshead {
+    grid-area: tomatoeshead;
+  }
+
+  .tomatoespic {
+    grid-area: tomatoespic;
+  }
+  .tomatoescont {
+    grid-area: tomatoescont;
+  }
+  .lyscube {
+    display: grid;
+    grid-template-areas:
+      "lyshead lyshead"
+      "lyspic lyscont";
+  }
+  .lyshead {
+    grid-area: lyshead;
+  }
+
+  .lyspic {
+    grid-area: lyspic;
+  }
+  .lyscont {
+    grid-area: lyscont;
+  }
+  .euphoria {
+    display: grid;
+    grid-template-areas:
+      "euphoriahead euphoriahead"
+      "euphoriapic euphoriacont";
+  }
+  .euphoriaheads {
+    grid-area: euphoriahead;
+  }
+
+  .euphoriapic {
+    grid-area: euphoriapic;
+  }
+  .euphoriacont {
+    grid-area: euphoriacont;
+  }
+  .plant {
+    display: grid;
+    grid-template-areas:
+      "planthead planthead"
+      "plantpic plantcont";
+  }
+  .planthead {
+    grid-area: planthead;
+  }
+
+  .plantpic {
+    grid-area: plantpic;
+  }
+  .plantcont {
+    margin-right: 70px;
+    grid-area: plantcont;
+  }
+  .sheets {
+    display: grid;
+    grid-template-areas:
+      "sheetshead sheetshead"
+      "sheetspic sheetscont";
+  }
+  .sheetshead {
+    grid-area: sheetshead;
+  }
+
+  .sheetspic {
+    grid-area: sheetspic;
+  }
+  .sheetscont {
+    margin-right: 70px;
+    grid-area: sheetscont;
+  }
+}
+/* palette
+
+purple #A7226E
+red #EC2049
+orange #F26B38
+yellow #F7DB4F
+blue #2F9599
+*/
+
+/* fonts */
+/* font-family: 'Major Mono Display', monospace;
+font-family: 'Anonymous Pro', monospace; */

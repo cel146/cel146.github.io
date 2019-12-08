@@ -1,0 +1,474 @@
+@media only screen and (min-width: 800px) {
+  /* projects css */
+  body {
+    font-family: "Anonymous Pro", monospace;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+  }
+
+  .projectnav {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Major Mono Display", monospace;
+  }
+
+  #nav01 {
+    color: #a7226e;
+  }
+  #nav02 {
+    color: #ec2049;
+  }
+  #nav03 {
+    color: #f26b38;
+  }
+  #nav04 {
+    color: #f7db4f;
+  }
+  #nav05 {
+    color: #2f9599;
+  }
+  #kandinskynav {
+    color: #a7226e;
+  }
+  #nav06 {
+    color: #ec2049;
+  }
+  #showcasenav {
+    color: #f26b38;
+  }
+
+  #first1 {
+    border: 3px solid;
+    color: #ec2049;
+    grid-area: first1;
+  }
+  #first2 {
+    border: 3px solid;
+    color: #a7226e;
+    grid-area: first2;
+  }
+  #first3 {
+    border: 3px solid;
+    color: #2f9599;
+    grid-area: first3;
+  }
+  #first4 {
+    border: 3px solid;
+    color: #f26b38;
+    grid-area: first4;
+  }
+
+  #cbvc2 {
+    border: 3px solid;
+    color: #f26b38;
+  }
+  #cbvc3 {
+    border: 3px solid;
+    color: #2f9599;
+  }
+  #cbvc8 {
+    border: 3px solid;
+    color: #a7226e;
+  }
+  #cbvc1 {
+    border: 3px solid;
+    color: #ec2049;
+  }
+  #mcl1 {
+    border: 3px solid;
+    color: #ec2049;
+  }
+  #mcl2 {
+    border: 3px solid;
+    color: #a7226e;
+  }
+  #mcl3 {
+    border: 3px solid;
+    color: #f26b38;
+  }
+  #kandinsky2 {
+    border: 3px solid;
+    color: #f7db4f;
+  }
+  #kandinsky1 {
+    border: 3px solid;
+    color: #ec2049;
+  }
+  #kandinsky3 {
+    border: 3px solid;
+    color: #f26b38;
+  }
+  #kandinsky4 {
+    border: 3px solid;
+    color: #a7226e;
+  }
+
+  /* project grids */
+  .showcase {
+    margin-left: 250px;
+    width: 800px;
+    display: grid;
+    grid-template-areas:
+      "showcasehead showcasehead"
+      "showcasepic showcasesummary";
+  }
+  .showcasehead {
+    margin-left: 380px;
+    grid-area: showcasehead;
+  }
+  .showcasepic {
+    grid-area: showcasepic;
+  }
+  .showcasesummary {
+    grid-area: showcasesummary;
+  }
+  .showcasepic {
+    display: grid;
+    margin-right: 10px;
+    height: 100px;
+    width: 300px;
+    grid-template-areas:
+      "showcase1 showcase7"
+      "showcase3 showcase9";
+  }
+
+  #showcase1 {
+    grid-area: showcase1;
+    border: 3px solid;
+    color: #f26b38;
+  }
+  #showcase7 {
+    grid-area: showcase7;
+    border: 3px solid;
+    color: #a7226e;
+  }
+  #showcase3 {
+    grid-area: showcase3;
+    border: 3px solid;
+    color: #ec2049;
+  }
+  #showcase9 {
+    grid-area: showcase9;
+    border: 3px solid;
+    color: #2f9599;
+  }
+
+  .project06 {
+    margin-left: 250px;
+    width: 1000px;
+    display: grid;
+    grid-template-areas:
+      "headp6 headp6"
+      "picp6 summaryp6";
+  }
+  .headp6 {
+    margin-left: 280px;
+    grid-area: headp6;
+  }
+  .picp6 {
+    grid-area: picp6;
+  }
+  .summaryp6 {
+    grid-area: summaryp6;
+  }
+
+  .picp6 {
+    display: grid;
+    margin-right: 10px;
+    height: 100px;
+    grid-template-areas:
+      "bbhouse1 bbhouse3"
+      "bbhouse10 bbhouse8"
+      "bbhouse12 bbhousesu1";
+  }
+
+  #bbhouse1 {
+    border: 3px solid;
+    color: #f7db4f;
+    grid-area: bbhouse1;
+  }
+  #bbhouse3 {
+    border: 3px solid;
+    color: #a7226e;
+    grid-area: bbhouse3;
+  }
+  #bbhouse8 {
+    border: 3px solid;
+    color: #ec2049;
+    grid-area: bbhouse8;
+  }
+  #bbhouse10 {
+    border: 3px solid;
+    color: #2f9599;
+    grid-area: bbhouse10;
+  }
+  #bbhouse12 {
+    border: 3px solid;
+    color: #f26b38;
+    grid-area: bbhouse12;
+  }
+  #bbhousesu1 {
+    border: 3px solid;
+    color: #f7db4f;
+    grid-area: bbhousesu1;
+  }
+
+  .kandinsky {
+    margin-left: 170px;
+    width: 1100px;
+    display: grid;
+    grid-template-areas:
+      "headk headk"
+      "pick summaryk";
+  }
+  .headk {
+    margin-left: 430px;
+    grid-area: headk;
+  }
+  .pick {
+    grid-area: pick;
+  }
+  .summaryk {
+    grid-area: summaryk;
+  }
+  .pick {
+    margin-right: 10px;
+    height: 10px;
+    display: grid;
+    grid-template-areas:
+      "kandinsky2 kandinsky1"
+      "kandinsky3 kandinsky4";
+  }
+
+  #kandinsky2 {
+    border: 3px solid;
+    color: #ec2049;
+    grid-area: kandinsky2;
+  }
+  #kandinsky1 {
+    border: 3px solid;
+    color: #f7db4f;
+    grid-area: kandinsky1;
+  }
+  #kandinsky3 {
+    border: 3px solid;
+    color: #ec2049;
+    grid-area: kandinsky3;
+  }
+  #kandinsky4 {
+    border: 3px solid;
+    color: #ec2049;
+    grid-area: kandinsky4;
+  }
+
+  .project05 {
+    margin-right: 0px;
+    margin-left: 250px;
+    width: 1000px;
+    display: grid;
+    grid-template-areas:
+      "headp5 headp5"
+      "picp5 summaryp5";
+  }
+  .headp5 {
+    margin-left: 300px;
+    grid-area: headp5;
+  }
+  .picp5 {
+    grid-area: picp5;
+  }
+  .summaryp5 {
+    grid-area: summaryp5;
+  }
+  .picp5 {
+    margin-right: 10px;
+    height: 10px;
+    display: grid;
+    grid-template-areas:
+      "mcl1"
+      "mcl2"
+      "mcl3";
+  }
+
+  #mcl1 {
+    border: 3px solid;
+    color: #ec2049;
+    grid-area: mcl1;
+  }
+  #mcl2 {
+    border: 3px solid;
+    color: #f7db4f;
+    grid-area: mcl2;
+  }
+  #mcl3 {
+    border: 3px solid;
+    color: #ec2049;
+    grid-area: mcl3;
+  }
+
+  .project04 {
+    margin-left: 200px;
+    width: 1000px;
+    display: grid;
+    grid-template-areas:
+      "headp4 headp4"
+      "picp4 summaryp4";
+  }
+  .headp4 {
+    margin-left: 330px;
+    grid-area: headp4;
+  }
+  .picp4 {
+    margin-right: 10px;
+    grid-area: picp4;
+  }
+  .summaryp4 {
+    grid-area: summaryp4;
+  }
+  .picp4 {
+    height: 10px;
+    display: grid;
+    grid-template-areas:
+      "cbvc2 cbvc3"
+      "cbvc8 cbvc1";
+  }
+
+  #cbvc1 {
+    border: 3px solid;
+    color: #ec2049;
+    grid-area: cbvc2;
+  }
+  #cbvc3 {
+    border: 3px solid;
+    color: #f7db4f;
+    grid-area: cbvc3;
+  }
+  #cbvc8 {
+    border: 3px solid;
+    color: #ec2049;
+    grid-area: cbvc8;
+  }
+  #cbvc1 {
+    border: 3px solid;
+    color: #f7db4f;
+    grid-area: cbvc1;
+  }
+
+  .project03 {
+    margin-left: 330px;
+    width: 900px;
+    display: grid;
+    grid-template-areas:
+      "headp3 headp3"
+      "picp3 summaryp3";
+  }
+  .headp3 {
+    margin-left: 190px;
+    grid-area: headp3;
+  }
+  .picp3 {
+    grid-area: picp3;
+  }
+  .summaryp3 {
+    margin-left: 10px;
+    grid-area: summaryp3;
+  }
+
+  .picp3 {
+    display: grid;
+    grid-template-areas:
+      "emergency1"
+      "emergency2";
+  }
+
+  #emergency1 {
+    border: 3px solid;
+    color: #ec2049;
+    grid-area: emergency1;
+  }
+  #emergency2 {
+    border: 3px solid;
+    color: #f7db4f;
+    grid-area: emergency2;
+  }
+
+  .project02 {
+    margin-left: 200px;
+    width: 1000px;
+    display: grid;
+    grid-template-areas:
+      "headp2 headp2"
+      "picp2 summaryp2";
+  }
+  .headp2 {
+    margin-left: 330px;
+    grid-area: headp2;
+  }
+  .picp2 {
+    grid-area: picp2;
+  }
+  .summaryp2 {
+    margin-left: 150px;
+    grid-area: summaryp2;
+  }
+  .picp2 {
+    height: 200px;
+    width: 300px;
+    display: grid;
+    grid-template-areas:
+      "first1 first2"
+      "first3 first4";
+  }
+
+  .project01 {
+    margin-left: 312px;
+    width: 1000px;
+    display: grid;
+    grid-template-areas:
+      "headp1 headp1"
+      "picp1 summaryp1";
+  }
+  .headp1 {
+    margin-left: 200px;
+    grid-area: headp1;
+  }
+  .picp1 {
+    grid-area: picp1;
+  }
+  .summaryp1 {
+    grid-area: summaryp1;
+  }
+
+  .picp1 {
+    width: 300px;
+    display: grid;
+    grid-template-areas:
+      "chair1 chair4"
+      "shelter2 shelter3";
+  }
+
+  #chair1 {
+    border: 3px solid;
+    color: #a7226e;
+    grid-area: chair1;
+  }
+  #chair4 {
+    border: 3px solid;
+    color: #ec2049;
+    grid-area: chair4;
+  }
+  #shelter2 {
+    border: 3px solid;
+    color: #2f9599;
+    grid-area: shelter2;
+  }
+  #shelter3 {
+    border: 3px solid;
+    color: #f7db4f;
+    grid-area: shelter3;
+  }
+}

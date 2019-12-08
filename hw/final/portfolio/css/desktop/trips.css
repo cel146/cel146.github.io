@@ -1,0 +1,88 @@
+@media only screen and (min-width: 800px) {
+  .header {
+    width: 100%;
+    height: 140px;
+    top: 0px;
+    position: fixed;
+    z-index: 9;
+    background-color: white;
+    opacity: 1;
+    padding-bottom: 0;
+    display: block;
+  }
+  .section {
+    font-size: 30px;
+    text-align: center;
+  }
+  .section {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  #fw5 {
+    width: 700px;
+    height: 100%;
+    border: solid 3px;
+    border-color: #ec2049;
+  }
+
+  #kk1 {
+    width: 700px;
+    height: 100%;
+    border: solid 3px;
+    border-color: #f26b38;
+  }
+  .fallingwater,
+  .kk {
+    margin-top: 150px;
+  }
+  #fw2 {
+    width: 350px;
+    height: 100%;
+    border: solid 3px;
+    border-color: #a7226e;
+  }
+  #fw4 {
+    width: 350px;
+    height: 100%;
+    border: solid 3px;
+    border-color: #ec2049;
+  }
+  #fw1 {
+    width: 350px;
+    height: 100%;
+    border: solid 3px;
+    border-color: #2f9599;
+  }
+  #kkstatue1 {
+    width: 300px;
+    height: 100%;
+    border: solid 3px;
+    border-color: #f7db4f;
+  }
+  #ktscenery2 {
+    width: 300px;
+    height: 100%;
+    border: solid 3px;
+    border-color: #f26b38;
+  }
+  #lake {
+    width: 170px;
+    height: 100%;
+    border: solid 3px;
+    border-color: #a7226e;
+  }
+  h2,
+  p {
+    font-family: "Anonymous Pro", monospace;
+    font-size: 25px;
+  }
+}
+
+/* palette
+
+purple #A7226E
+red #EC2049
+orange #F26B38
+yellow #F7DB4F
+blue #2F9599
+*/

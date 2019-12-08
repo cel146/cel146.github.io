@@ -1,351 +1,147 @@
-/* toc
-index
-projects
-projectsgrids
-art
-artgrids */
+@media only screen and (min-width: 800px) {
+  /* index css */
 
-/* index css */
+  .header {
+    text-align: center;
+    font-family: "Major Mono Display", monospace;
+  }
 
-.grid1 {
-  width: 500px;
-  display: grid;
-  grid-template-areas:
-    "showcase1 showcase3 showcase7 showcase8 showcase6"
-    "bbhouse1 bbhouse2 bbhouse6 bbhouse4 bbhouse5"
-    "cbvc1 cbvc5 cbvc2 cbvc3 cbvc4"
-    "first1 first2 kandinsky2 chair4 shelter2";
-}
+  .c {
+    color: #a7226e;
+  }
+  .i {
+    color: #ec2049;
+  }
+  .d1 {
+    color: #f26b38;
+  }
+  .s {
+    color: #f7db4f;
+  }
+  .w {
+    color: #2f9599;
+  }
+  .o {
+    color: #a7226e;
+  }
+  .r {
+    color: #ec2049;
+  }
+  .l {
+    color: #f26b38;
+  }
+  .d2 {
+    color: #f7db4f;
+  }
 
-.single-item {
-  width: 400px;
-}
-img {
-  width: 200px;
-  height: 200px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-#showcase1 {
-  grid-area: showcase1;
-}
-#showcase3 {
-  grid-area: showcase3;
-}
-#showcase7 {
-  grid-area: showcase7;
-}
-#showcase8 {
-  grid-area: showcase8;
-}
-#showcase6 {
-  grid-area: showcase6;
-}
+  hr {
+    width: 400px;
+  }
 
-#bbhouse1 {
-  grid-area: bbhouse1;
-}
-#bbhouse2 {
-  grid-area: bbhouse2;
-}
-#bbhouse6 {
-  grid-area: bbhouse6;
-}
-#bbhouse4 {
-  grid-area: bbhouse4;
-}
-#bbhouse5 {
-  grid-area: bbhouse5;
-}
-#cbvc1 {
-  grid-area: cbvc1;
-}
-#cbvc5 {
-  grid-area: cbvc5;
-}
-#cbvc2 {
-  grid-area: cbvc2;
-}
-#cbvc3 {
-  grid-area: cbvc3;
-}
-#cbvc4 {
-  grid-area: cbvc4;
-}
-#first1 {
-  grid-area: first1;
-}
-#first2 {
-  grid-area: first2;
-}
-#kandinsky2 {
-  grid-area: kandinsky2;
-}
-#chair4 {
-  grid-area: chair4;
-}
-#shelter2 {
-  grid-area: shelter2;
-}
+  /* link css */
 
-/* projects css */
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
 
-/* project grids */
-.showcase {
-  display: grid;
-  grid-template-areas:
-    "showcasehead showcasehead"
-    "showcasepic showcasesummary";
-}
-.showcasehead {
-  grid-area: showcasehead;
-}
-.showcasepic {
-  grid-area: showcasepic;
-}
-.showcasesummary {
-  grid-area: showcasesummary;
-}
+  /* idex grid */
 
-.project06 {
-  display: grid;
-  grid-template-areas:
-    "headp6 headp6"
-    "picp6 summaryp6";
-}
-.headp6 {
-  grid-area: headp6;
-}
-.picp6 {
-  grid-area: picp6;
-}
-.summaryp6 {
-  grid-area: summaryp6;
-}
+  .grid1 {
+    margin-top: 10px;
+    margin-left: 185px;
+    width: 500px;
+    display: grid;
+    grid-template-areas:
+      "showcase1 showcase3 showcase7 showcase8 showcase6"
+      "bbhouse1 bbhouse2 bbhouse6 bbhouse4 bbhouse5"
+      "cbvc1 cbvc5 cbvc2 cbvc3 cbvc4"
+      "first1 first2 kandinsky2 chair4 shelter2";
+  }
 
-.kandinsky {
-  display: grid;
-  grid-template-areas:
-    "headk headk"
-    "pick summaryk";
-}
-.headk {
-  grid-area: headk;
-}
-.pick {
-  grid-area: pick;
-}
-.summaryk {
-  grid-area: summaryk;
-}
+  .single-item {
+    width: 400px;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  #showcase1 {
+    grid-area: showcase1;
+  }
+  #showcase3 {
+    grid-area: showcase3;
+  }
+  #showcase7 {
+    grid-area: showcase7;
+  }
+  #showcase8 {
+    grid-area: showcase8;
+  }
+  #showcase6 {
+    grid-area: showcase6;
+  }
 
-.project05 {
-  display: grid;
-  grid-template-areas:
-    "headp5 headp5"
-    "picp5 summaryp5";
+  #bbhouse1 {
+    grid-area: bbhouse1;
+  }
+  #bbhouse2 {
+    grid-area: bbhouse2;
+  }
+  #bbhouse6 {
+    grid-area: bbhouse6;
+  }
+  #bbhouse4 {
+    grid-area: bbhouse4;
+  }
+  #bbhouse5 {
+    grid-area: bbhouse5;
+  }
+  #cbvc1 {
+    grid-area: cbvc1;
+  }
+  #cbvc5 {
+    grid-area: cbvc5;
+  }
+  #cbvc2 {
+    grid-area: cbvc2;
+  }
+  #cbvc3 {
+    grid-area: cbvc3;
+  }
+  #cbvc4 {
+    grid-area: cbvc4;
+  }
+  #first1 {
+    grid-area: first1;
+  }
+  #first2 {
+    grid-area: first2;
+  }
+  #kandinsky2 {
+    grid-area: kandinsky2;
+  }
+  #chair4 {
+    grid-area: chair4;
+  }
+  #shelter2 {
+    grid-area: shelter2;
+  }
 }
-.headp5 {
-  grid-area: headp5;
-}
-.picp5 {
-  grid-area: picp5;
-}
-.summaryp5 {
-  grid-area: summaryp5;
-}
+/* palette
 
-.project04 {
-  display: grid;
-  grid-template-areas:
-    "headp4 headp4"
-    "picp4 summaryp4";
-}
-.headp4 {
-  grid-area: headp4;
-}
-.picp4 {
-  grid-area: picp4;
-}
-.summaryp4 {
-  grid-area: summaryp4;
-}
+purple #A7226E
+red #EC2049
+orange #F26B38
+yellow #F7DB4F
+blue #2F9599
+*/
 
-.project03 {
-  display: grid;
-  grid-template-areas:
-    "headp3 headp3"
-    "picp3 summaryp3";
-}
-.headp3 {
-  grid-area: headp3;
-}
-.picp3 {
-  grid-area: picp3;
-}
-.summaryp3 {
-  grid-area: summaryp3;
-}
-
-.project02 {
-  display: grid;
-  grid-template-areas:
-    "headp2 headp2"
-    "picp2 summaryp2";
-}
-.headp2 {
-  grid-area: headp2;
-}
-.picp2 {
-  grid-area: picp2;
-}
-.summaryp2 {
-  grid-area: summaryp2;
-}
-
-.project01 {
-  display: grid;
-  grid-template-areas:
-    "headp1 headp1"
-    "picp1 summaryp1";
-}
-.headp1 {
-  grid-area: headp1;
-}
-.picp1 {
-  grid-area: picp1;
-}
-.summaryp1 {
-  grid-area: summaryp1;
-}
-
-/* art css */
-
-.header {
-  width: 100%;
-  height: 140px;
-  top: 0px;
-  position: absolute;
-  z-index: 999;
-  background-color: lime;
-  opacity: 1;
-  padding-bottom: 0;
-}
-.section {
-  font-size: 30px;
-  text-align: center;
-}
-.section {
-  padding-left: 150px;
-  padding-right: 150px;
-}
-.flowers,
-.tomatoes,
-.lyscube,
-.euphoria,
-.plant,
-.sheets {
-  background-color: blue;
-  height: 75%;
-  margin-top: 140px;
-}
-
-/* art grids */
-
-.flowers {
-  display: grid;
-  grid-template-areas:
-    "flowershead flowershead"
-    "flowerspic flowerscont";
-}
-
-.flowershead {
-  grid-area: flowershead;
-}
-
-.flowerspic {
-  grid-area: flowerspic;
-}
-.flowerscont {
-  grid-area: flowerscont;
-}
-.tomatoes {
-  display: grid;
-  grid-template-areas:
-    "tomatoeshead tomatoeshead"
-    "tomatoespic tomatoescont";
-}
-.tomatoeshead {
-  grid-area: tomatoeshead;
-}
-
-.tomatoespic {
-  grid-area: tomatoespic;
-}
-.tomatoescont {
-  grid-area: tomatoescont;
-}
-.lyscube {
-  display: grid;
-  grid-template-areas:
-    "lyshead lyshead"
-    "lyspic lyscont";
-}
-.lyshead {
-  grid-area: lyshead;
-}
-
-.lyspic {
-  grid-area: lyspic;
-}
-.lyscont {
-  grid-area: lyscont;
-}
-.euphoria {
-  display: grid;
-  grid-template-areas:
-    "euphoriahead euphoriahead"
-    "euphoriapic euphoriacont";
-}
-.euphoriahead {
-  grid-area: euphoriahead;
-}
-
-.euphoriapic {
-  grid-area: euphoriapic;
-}
-.euphoriacont {
-  grid-area: euphoriacont;
-}
-.plant {
-  display: grid;
-  grid-template-areas:
-    "planthead planthead"
-    "plantpic plantcont";
-}
-.planthead {
-  grid-area: planthead;
-}
-
-.plantpic {
-  grid-area: plantpic;
-}
-.plantcont {
-  grid-area: plantcont;
-}
-.sheets {
-  display: grid;
-  grid-template-areas:
-    "sheetshead sheetshead"
-    "sheetspic sheetscont";
-}
-.sheetshead {
-  grid-area: sheetshead;
-}
-
-.sheetspic {
-  grid-area: sheetspic;
-}
-.sheetscont {
-  grid-area: sheetscont;
-}
+/* fonts */
+/* font-family: 'Major Mono Display', monospace;
+font-family: 'Anonymous Pro', monospace; */

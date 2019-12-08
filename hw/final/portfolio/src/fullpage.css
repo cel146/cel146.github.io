@@ -10,7 +10,7 @@
  */
 html.fp-enabled,
 .fp-enabled body {
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
   overflow: hidden;
 
@@ -47,7 +47,7 @@ html.fp-enabled,
 }
 .fp-tableCell {
   display: table-cell;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   width: 100%;
   height: 100%;
 }
@@ -76,13 +76,13 @@ html.fp-enabled,
   left: 15px;
   width: 0;
   border-width: 38.5px 34px 38.5px 0;
-  border-color: transparent lime transparent transparent;
+  border-color: transparent black transparent transparent;
 }
 .fp-controlArrow.fp-next {
   right: 15px;
   border-width: 38.5px 0 38.5px 34px;
   /* fourth one changes arrow color */
-  border-color: transparent transparent transparent lime;
+  border-color: transparent transparent transparent black;
 }
 .fp-scrollable {
   overflow: hidden;
