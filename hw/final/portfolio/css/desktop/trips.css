@@ -76,6 +76,10 @@
     font-family: "Anonymous Pro", monospace;
     font-size: 25px;
   }
+  .aboutfw,
+  .aboutkk {
+    margin-top: 250px;
+  }
 }
 
 /* palette
