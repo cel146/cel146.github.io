@@ -58,7 +58,7 @@
     grid-template-areas:
       "showcase1 showcase3 showcase7 showcase8 showcase6"
       "bbhouse1 bbhouse2 bbhouse6 bbhouse4 bbhouse5"
-      "cbvc1 cbvc5 cbvc2 cbvc3 cbvc4"
+      "cbvc1 cbvc8 final4 cbvc3 cbvc4"
       "first1 first2 kandinsky2 chair4 shelter2";
   }
 
@@ -105,11 +105,11 @@
   #cbvc1 {
     grid-area: cbvc1;
   }
-  #cbvc5 {
-    grid-area: cbvc5;
+  #final4 {
+    grid-area: final4;
   }
-  #cbvc2 {
-    grid-area: cbvc2;
+  #cbvc8 {
+    grid-area: cbvc8;
   }
   #cbvc3 {
     grid-area: cbvc3;
