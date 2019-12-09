@@ -109,7 +109,7 @@
 
   /* project grids */
   .showcase {
-    margin-left: 250px;
+    margin-left: 280px;
     width: 800px;
     display: grid;
     grid-template-areas:
@@ -117,7 +117,7 @@
       "showcasepic showcasesummary";
   }
   .showcasehead {
-    margin-left: 380px;
+    margin-left: 340px;
     grid-area: showcasehead;
   }
   .showcasepic {
@@ -128,7 +128,7 @@
   }
   .showcasepic {
     display: grid;
-    margin-right: 10px;
+    margin-right: 150px;
     height: 100px;
     width: 300px;
     grid-template-areas:
@@ -289,9 +289,8 @@
     height: 10px;
     display: grid;
     grid-template-areas:
-      "mcl1"
-      "mcl2"
-      "mcl3";
+      "mcl1 mcl2"
+      "mcl3 mcl4";
   }
 
   #mcl1 {
@@ -308,6 +307,11 @@
     border: 3px solid;
     color: #ec2049;
     grid-area: mcl3;
+  }
+  #mcl4 {
+    border: 3px solid;
+    color: #ec2049;
+    grid-area: mcl4;
   }
 
   .project04 {
@@ -425,15 +429,15 @@
   }
 
   .project01 {
-    margin-left: 312px;
-    width: 1000px;
+    margin-left: 270px;
+    width: 800px;
     display: grid;
     grid-template-areas:
       "headp1 headp1"
       "picp1 summaryp1";
   }
   .headp1 {
-    margin-left: 200px;
+    margin-left: 240px;
     grid-area: headp1;
   }
   .picp1 {
@@ -445,6 +449,7 @@
 
   .picp1 {
     width: 300px;
+    margin-right: 150px;
     display: grid;
     grid-template-areas:
       "chair1 chair4"
