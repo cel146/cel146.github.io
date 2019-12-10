@@ -21,7 +21,7 @@
   }
   .header {
     height: 100px;
-    width: 290px;
+    width: 280px;
     top: 0px;
     position: fixed;
     z-index: 999;
@@ -481,7 +481,7 @@
 
   .aboutfw,
   .aboutkk {
-    margin-top: 155px;
+    margin-top: 250px;
   }
   #fw1 {
     margin-bottom: 10px;
@@ -489,9 +489,35 @@
   }
   #fw4 {
     display: none;
+    grid-area: fw4;
   }
   #fw2 {
     display: none;
+    grid-area: fw2;
+  }
+  .fwpics {
+    display: grid;
+    grid-template-areas:
+      "fw1"
+      "fw4"
+      "fw2";
+  }
+
+  .kkpics {
+    display: grid;
+    grid-template-areas:
+      "kkstatue1"
+      "kkscenery2"
+      "lake";
+  }
+  #kkstatue1 {
+    grid-area: kkstatue1;
+  }
+  #kkscenery2 {
+    grid-area: kkscenery2;
+  }
+  #lake {
+    grid-area: lake;
   }
 }
 /* palette
