@@ -481,8 +481,8 @@
 
   .aboutfw,
   .aboutkk {
-    margin-top: 100px;
-    width: 280px;
+    /* margin-top: 100px; */
+    width: 200px;
   }
   #fw1 {
     margin-bottom: 10px;
